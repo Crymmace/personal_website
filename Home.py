@@ -25,16 +25,21 @@ with tab1:
     with col2:
         st.title("About Me")
         content = """
-            Hello!
-            My name is Crystal!
+            Hey there! I'm Crystal, a passionate Python developer with 5+ years under my belt. 
+            I kicked things off by diving into online courses, and since then I've put my skills to the test at a 
+            startup in Sweden. 
+            
+            When I'm not coding away, I love working on personal projects (check them out below!).
 
-            I started learning Python about 5 years ago through the use of online courses. 
-            Since then I've worked as a temporary Software Developer for a startup in Sweden. 
-            I have a handful of side projects that I've worked on in my free time that you can check out below!. 
-            I'm dedicated, I work hard, and I love what I do.
+            Here's the gist:
 
-            If you'd like what you see, feel free to reach out!
-            Hope to hear from you soon!
+            Python pro: 5+ years of experience, honed through online learning, professional work, and personal projects.\n
+            Startup experience: Built an automated testing suite as a Software Developer at a Swedish startup.\n
+            Always learning: Constantly expanding my skills and tackling new challenges.
+        
+            Want more info?
+            Feel free to send me an email!
+            Looking forward to hearing from you soon!
             """
         st.write(content)
 
