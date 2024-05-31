@@ -1,0 +1,6 @@
+ssl
+dotenv
+email.message
+streamlit
+send_email
+pandas
