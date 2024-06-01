@@ -2,7 +2,7 @@ import streamlit as st
 from send_email import send_email
 import pandas
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Home", layout="wide")
 st.markdown("""
         <style>
                .block-container {
