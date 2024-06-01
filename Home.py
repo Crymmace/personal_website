@@ -11,6 +11,8 @@ st.markdown("""
                     padding-left: 5rem;
                     padding-right: 5rem;
                 }
+                #MainMenu {visibility: hidden;}
+                footer {visibility: hidden;}
         </style>
         """, unsafe_allow_html=True)
 
