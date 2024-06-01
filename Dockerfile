@@ -9,6 +9,12 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+RUN mkdir .streamlit
+RUN bash -c 'echo -e "\
+[ui]\n\
+hideTopBar = true\n\
+" > .streamlit/config.toml'
+
 COPY . .
 
 RUN pip3 install -r requirements.txt
