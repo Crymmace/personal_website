@@ -10,10 +10,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir .streamlit
-RUN bash -c 'echo -e "\
-[ui]\n\
-hideTopBar = true\n\
-" > .streamlit/config.toml'
+RUN bash -c 'echo -e "[ui]\n hideTopBar = true\n" > .streamlit/config.toml'
 
 COPY . .
 
